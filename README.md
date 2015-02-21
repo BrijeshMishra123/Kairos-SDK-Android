@@ -58,8 +58,8 @@ Before you can make API calls you'll need to create a Kairos object and set your
 Kairos myKairos = new Kairos();
 
 // set authentication
-String app_id = "arq3241";
-String api_key = "s82nrh2ns92nse2ha712net9rk3nter3";
+String app_id = "your_app_id";
+String api_key = "your_application_key";
 myKairos.setAuthentication(this, app_id, api_key);
 
 ```
@@ -290,7 +290,7 @@ myKairos.deleteSubject(subjectId, galleryId, listener);
 
 ## View the Examples
 
-Also see provided examples included in the example project. It contains clear examples on how to use all of the available methods in the file MyActivity.java. Just make sure to plug in your application credentials ([Create an account if you don't have one](http://kairos.com)). Also, check out the API documentation at [https://developer.kairos.com/docs](https://www.kairos.com/docs)
+Also see provided examples included in the example project. It contains clear examples on how to use all of the available methods in the file MyActivity.java. Just make sure to plug in your application credentials ([Create an account if you don't have one](http://kairos.com)). Also, check out the API documentation at [http://www.kairos.com/docs](http://www.kairos.com/docs)
 
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/kairos-api/kairos-facial-recognition-api)
 
