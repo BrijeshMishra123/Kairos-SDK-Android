@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="KairosSDK-android-dev">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../KairosSDK-android-dev/out/artifacts/KairosSDK_android_dev_jar/KairosSDK-android-dev.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

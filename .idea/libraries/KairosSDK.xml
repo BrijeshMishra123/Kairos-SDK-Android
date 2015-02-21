@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="KairosSDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/KairosSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
