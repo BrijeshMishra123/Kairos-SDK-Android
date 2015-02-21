@@ -42,8 +42,8 @@ public class MyActivity extends Activity {
         Kairos myKairos = new Kairos();
 
         /* * * set authentication * * */
-        String app_id = "arq3241";
-        String api_key = "s82nrh2ns92nse2ha712net9rk3nter3";
+        String app_id = "app_id";
+        String api_key = "app_key";
         myKairos.setAuthentication(this, app_id, api_key);
 
 
