@@ -5,7 +5,7 @@ Kairos is the easist way add **Face-Recognition** to your Android apps. Our API 
 
 We also have official SDKs for [iOS](https://github.com/kairosinc/Kairos-SDK-iOS), [Javascript](https://github.com/kairosinc/Kairos-SDK-Javascript) and [PHP](https://github.com/kairosinc/Kairos-SDK-PHP). 
 
-_*Thanks to contributions by some of our customers, we also have unofficial wrappers for [Ruby](https://github.com/kany/kairos-api) and [.NET](https://github.com/humbywan/Kairos.Net)._
+_*Thanks to fan contributions, we also have unofficial wrappers for [Ruby](https://github.com/kany/kairos-api) and [.NET](https://github.com/humbywan/Kairos.Net)._
 
 ## What You'll Need
 * An Android app project
@@ -94,7 +94,7 @@ The **detect** method returns you detailed information on face attributes for an
 ###Parameters:
 *	Bitmap **image**, or String **image**
 *	String **selector** (optional: can be null)
-*	double **minHeadScale** (optional: can be null)
+*	String **minHeadScale** (optional: can be null)
 *	KairosListener **listener**
 *	_(See the [API Docs](http://kairos.com/docs/) for details on what the parameters do)_
 
@@ -132,7 +132,7 @@ The **enroll** methods let you register a face for later recognition. You can en
 *	String **subjectId**
 *	String **selector** (optional: can be null)
 *	String **multipleFaces** (optional: can be null)
-*	double **minHeadScale**  (optional: can be null)
+*	String **minHeadScale**  (optional: can be null)
 *	KairosListener **listener**
 *	_(See the [API Docs](http://kairos.com/docs/) for details on what the parameters do)_
 
