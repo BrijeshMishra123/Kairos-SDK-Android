@@ -54,13 +54,13 @@ import com.kairos.*;
 Before you can make API calls you'll need to create a Kairos object and set your credentials **App Id** and **App Key** (You only need to do this once). Add your App Id and App Key into the setAuthentication() method like so:
 
 ```
-        // instantiate a new kairos instance
-        Kairos myKairos = new Kairos();
+// instantiate a new kairos instance
+Kairos myKairos = new Kairos();
 
-        // set authentication
-        String app_id = "arq3241";
-        String api_key = "s82nrh2ns92nse2ha712net9rk3nter3";
-        myKairos.setAuthentication(this, app_id, api_key);
+// set authentication
+String app_id = "arq3241";
+String api_key = "s82nrh2ns92nse2ha712net9rk3nter3";
+myKairos.setAuthentication(this, app_id, api_key);
 
 ```
 
@@ -167,7 +167,6 @@ myKairos.enroll(image,
 				multipleFaces, 
 				minHeadScale, 
 				listener);
-
             
 ```
 ---
@@ -218,7 +217,6 @@ myKairos.recognize(image,
 				    minHeadScale, 
 				    maxNumResults, 
 				    listener);
-
             
 ```
 ---
