@@ -125,7 +125,7 @@ myKairos.detect(image, selector, minHeadScale, listener);
         
 ## The Enroll Method
 
-The **enroll** methods let you register a face for later recognition. You can enroll a new face, or enroll different photos of an already enrolled for better recognition accuracy. There are four flavors of the enroll method available for you to suit your particular use case. See the examples below:
+The **enroll** methods let you register a face for later recognition. You can enroll a new face, or enroll different photos of an already enrolled for better recognition accuracy. See the examples below:
 ###Parameters:
 *	Bitmap **image**, or String **image**
 *	String **galleryId**
@@ -175,7 +175,7 @@ myKairos.enroll(image,
 
 ## The Recognize Method
 
-The **recognize** method attempts to recognize an image against a specified gallery, and returns a list of subjectIds and their confidence values as possible matches. For best recognition accuracy, it's reccomended that you have multiple enrollments (different images) per face. There are four flavors of the recognize method to suit your particular use case. See examples below: 
+The **recognize** method attempts to recognize an image against a specified gallery, and returns a list of subjectIds and their confidence values as possible matches. For best recognition accuracy, it's reccomended that you have multiple enrollments (different images) per face. See examples below: 
 
 ###Parameters:
 *	Bitmap **image**, or String **image**
