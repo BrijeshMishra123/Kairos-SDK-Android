@@ -6,7 +6,7 @@ Kairos is the easist way add **Face-Recognition** to your Android apps. Our API 
 We also have official SDKs for [iOS](https://github.com/kairosinc/Kairos-SDK-iOS), [Javascript](https://github.com/kairosinc/Kairos-SDK-Javascript) and [PHP](https://github.com/kairosinc/Kairos-SDK-PHP). 
 
 _*Thanks to fan contributions, we also have unofficial wrappers for [Ruby](https://github.com/kany/kairos-api) and [.NET](https://github.com/humbywan/Kairos.Net)._
-
+do
 ## What You'll Need
 * An Android app project
 * Internet connectivity for your device or emulator
@@ -96,7 +96,7 @@ The **detect** method returns you detailed information on face attributes for an
 *	String **selector** (optional: can be null)
 *	String **minHeadScale** (optional: can be null)
 *	KairosListener **listener**
-*	_(See the [API Docs](http://kairos.com/docs/) for details on what the parameters do)_
+*	_(See the [API Docs](https://www.kairos.com/docs/face-recognition) for details on what the parameters do)_
 
 ###Returns:
 * String **response** (face attribute data)
@@ -134,7 +134,7 @@ The **enroll** methods let you register a face for later recognition. You can en
 *	String **multipleFaces** (optional: can be null)
 *	String **minHeadScale**  (optional: can be null)
 *	KairosListener **listener**
-*	_(See the [API Docs](http://kairos.com/docs/) for details on what the parameters do)_
+*	_(See the [API Docs](https://www.kairos.com/docs/face-recognition) for details on what the parameters do)_
 
 ###Returns:
 * String **response** (details of the enroll request)
@@ -185,7 +185,7 @@ The **recognize** method attempts to recognize an image against a specified gall
 *	String **minHeadScale**  (optional: can be null)
 *	String **maxNumResults**  (optional: can be null)
 *	KairosListener **listener**
-*	_(See the [API Docs](http://kairos.com/docs/) for details on what the parameters do)_
+*	_(See the [API Docs](https://www.kairos.com/docs/face-recognition) for details on what the parameters do)_
 
 ###Returns:
 * String **response** (list of possible matching subjects and their confidence values)
@@ -315,9 +315,9 @@ myKairos.deleteSubject(subjectId, galleryId, listener);
 
 ## View the Examples
 
-Also see provided examples included in the example project. It contains clear examples on how to use all of the available methods in the file MyActivity.java. Just make sure to plug in your application credentials ([Create an account if you don't have one](http://kairos.com)). Also, check out the API documentation at [http://www.kairos.com/docs](http://www.kairos.com/docs)
+Also see provided examples included in the example project. It contains clear examples on how to use all of the available methods in the file MyActivity.java. Just make sure to plug in your application credentials ([Create an account if you don't have one](https://www.kairos.com)). Also, check out the API documentation at [https://www.kairos.com/docs/face-recognition](https://www.kairos.com/docs/face-recognition)
 
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/kairos-api/kairos-facial-recognition-api)
 
 ##Support 
-Have an issue? [Contact us](mailto:api@kairos.com) or [create an issue on GitHub](https://github.com/kairosinc/Kairos-SDK-Android)
+Have an issue? Visit our [Support page](http://www.kairos.com/support) or [create an issue on GitHub](https://github.com/kairosinc/Kairos-SDK-Android)
