@@ -262,6 +262,31 @@ String galleryId = "friends";
 myKairos.listSubjectsForGallery(galleryId, listener);
             
 ```
+
+---
+    
+## Delete a Gallery
+
+This method deletes a given gallery and all of its subjects. 
+
+###Parameters:
+*	String **galleryId**
+*	KairosListener **listener**
+
+###Returns:
+* String **response** (confirmation of the results of the request)
+
+
+###Example Usage:
+
+```
+// List out all subjects in a given gallery
+String galleryId = "friends";
+myKairos.deleteGallery(galleryId, listener);
+            
+```
+
+
 ---
     
 ## Delete a Subject from a Gallery

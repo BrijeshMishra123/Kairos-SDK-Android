@@ -161,6 +161,11 @@ public class MyActivity extends Activity {
             // Delete subject from gallery
             myKairos.deleteSubject("your_subject_id", "your_gallery_name", listener);
 
+
+
+            // Delete an entire gallery
+            myKairos.deleteGallery("your_gallery_name", listener);
+
             */
 
 
